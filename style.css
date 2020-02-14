@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.modal-content {
+  padding-bottom: 20px;
+}
+.modal-content .modal-header {
+  background-color: #F9F6F1;
+  padding: 15px 30px;
+}
+.modal-content .modal-header h4 {
+  color: #4D4A21;
+  font-size: 16px;
+  font-weight: 700;
+}
+.modal-content .modal-body .container .row {
+  margin-top: 20px;
+}
+.modal-content .modal-body .container .row .col-md-3 p {
+  color: #4D4A21;
+  font-size: 14px;
+  font-weight: 500;
+}
+.modal-content .modal-body .container .row .col-md-8 input {
+  width: 80%;
+  height: 35px;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+.modal-content .modal-body .container .row .col-md-8 input[type=date] {
+  width: 50%;
+}
+.modal-content .modal-body .container .row .col-md-8 .inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.modal-content .modal-body .container .row .col-md-8 .inputfile + label {
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: 500;
+  height: 35px;
+  padding: 7px 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #4D4A21;
+  width: 50%;
+  border: 1px solid #DEDEDE;
+  display: inline-block;
+}
+.modal-content .modal-body .container .row .col-md-8 .inputfile:focus + label,
+.modal-content .modal-body .container .row .col-md-8 .inputfile.has-focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+.modal-content .modal-body .container .row .col-md-8 .inputfile + label i {
+  float: right;
+  color: #D0A644;
+}
+.modal-content .modal-body .container .row .col-md-8 .no-js .inputfile + label {
+  display: none;
+}
+.modal-content .modal-body .container .row .col-md-8 textarea {
+  width: 80%;
+  height: 70px;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+.modal-content .modal-body .container .row .col-md-8 button {
+  width: 70%;
+  height: 35px;
+  background-color: #D0A644;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.modal-content .modal-body .container .row .col-md-8 .update {
+  width: 35%;
+}
+.modal-content .modal-body .container .row .col-md-8 .deactivate {
+  width: 35%;
+  background-color: transparent;
+  color: #D0A644;
+  border: 1px solid #D0A644;
+}
+.modal-content .modal-body .container .row .col-md-8 .icon {
+  width: 8%;
+  background-color: #F3EEE4;
+  color: #000;
+}
+
+.letter_head {
+  padding: 5px 15px 40px 15px;
+}
+.letter_head h1 {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 500;
+}
+.letter_head select {
+  width: 30%;
+  border: 1px solid rgba(103, 103, 103, 0.4);
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.letter_head button {
+  float: right;
+  background-color: #D0A644;
+  color: #fff;
+  padding: 7px;
+  width: 14%;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.letter_head button i {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-right: 10px;
+  color: #fff;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 100%;
+}
+
+tbody tr td .dropdown {
+  text-align: center;
+}
+tbody tr td .dropdown button {
+  padding: 0 12px;
+  background-color: transparent;
+  color: #D0A644;
+  border: 1px solid #D0A644;
+}
+tbody tr td .dropdown .dropdown-menu {
+  background-color: #D0A644;
+  color: #fff;
+}
+tbody tr td .dropdown .dropdown-menu .dropdown-item {
+  color: #fff;
+  padding: 4px 15px;
+  font-size: 15px;
+}
+tbody tr td .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #B18A2F;
+}
+
+.team {
+  margin-bottom: 20px;
+}
+.team .cardie {
+  width: 18% !important;
+  float: left;
+  margin-left: 2.3%;
+}
+.team .cardie .image {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  background-image: url(images/image.png);
+  background-size: cover;
+}
+.team .cardie button {
+  border: 1px solid #D0A644;
+  color: #D0A644;
+  border-radius: 5px;
+  width: 100%;
+  height: 35px;
+}
+.team .cardie:nth-child(1), .team .cardie:nth-child(6) {
+  margin-left: 0;
+}
+.team .move {
+  margin-top: 4%;
+}
+
+/*# sourceMappingURL=style.css.map */

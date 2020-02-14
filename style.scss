@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.modal-content{
+    padding-bottom:20px;
+    .modal-header{
+        background-color:#F9F6F1;
+        padding: 15px 30px;;
+        h4{
+            color:#4D4A21;
+            font-size:16px;
+            font-weight:700;
+        }
+    }
+    .modal-body{
+        .container{
+            .row{
+                margin-top: 20px;;
+                .col-md-3{
+                    p{
+                        color:#4D4A21;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+                .col-md-8{
+                    input{
+                        width:80%;
+                        height:35px;
+                        border:1px solid #DEDEDE;
+                        border-radius: 5px;
+                        padding:0 15px;
+                    }
+                    input[type=date]{
+                        width:50%;
+                    }
+                    .inputfile {
+                        width: 0.1px;
+                        height: 0.1px;
+                        opacity: 0;
+                        overflow: hidden;
+                        position: absolute;
+                        z-index: -1;
+                    }
+                    .inputfile + label {
+                        font-size: 12px;
+                        border-radius: 5px;
+                        font-weight: 500;
+                        height: 35px;;
+                        padding:7px 15px;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        cursor: pointer;
+                        color: #4D4A21;
+                        width:50%;
+                        border:1px solid #DEDEDE;
+                        display: inline-block;
+                    }
+                    .inputfile:focus + label,
+                    .inputfile.has-focus + label {
+                        outline: 1px dotted #000;
+                        outline: -webkit-focus-ring-color auto 5px;
+                    }
+                    .inputfile + label i{
+                        float:right;
+                        color:#D0A644;
+                    }
+                    .no-js .inputfile + label {
+                        display: none;
+                    }
+                    textarea{
+                        width:80%;
+                        height:70px;
+                        border:1px solid #DEDEDE;
+                        border-radius: 5px;
+                    }
+                    button{
+                        width:70%;
+                        height:35px;
+                        background-color: #D0A644;
+                        color:#fff;
+                        margin-top: 10px;;
+                        font-weight: 600;
+                        border-radius: 5px;
+                    }
+                    .update{
+                        width:35%;
+                    }
+                    .deactivate{
+                        width:35%;
+                        background-color: transparent;
+                        color:#D0A644;
+                        border:1px solid #D0A644;
+                    }
+                    .icon{
+                        width:8%;
+                        background-color: #F3EEE4;
+                        color:#000;
+                    }
+                }
+            }
+        }
+    }
+}
+.letter_head{
+    padding:5px 15px 40px 15px;
+    h1{
+        display: inline-block;
+        font-size:30px;
+        font-weight: 500;
+    }
+    select{
+        width:30%;
+        border:1px solid rgba(103, 103, 103,0.4);
+        height:40px;
+        border-radius: 5px;
+        padding:0 10px;
+        font-size:18px;
+        font-weight: 500;
+    }
+    button{
+        float:right;
+        background-color: #D0A644;
+        color:#fff;
+        padding:7px;
+        width:14%;
+        font-weight: 500;
+        border-radius: 5px;
+        i{
+            background-color:rgba(0,0,0,0.3);
+            margin-right:10px;
+            color:#fff;
+            padding:4px;
+            font-size:12px;
+            border-radius: 100%;;
+        }
+    }
+}
+tbody{
+    tr{
+        td{
+            .dropdown{
+                text-align: center;
+                button{
+                    padding: 0 12px;
+                    background-color: transparent;
+                    color:#D0A644;
+                    border:1px solid #D0A644;
+                }
+                
+                .dropdown-menu{
+                    background-color: #D0A644;
+                    color: #fff;
+                    .dropdown-item{
+                        color:#fff;
+                        padding:4px 15px;
+                        font-size:15px;
+                    }
+                    .dropdown-item:hover{
+                        background-color: #B18A2F;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.team{
+    margin-bottom:20px;
+    .cardie{
+        width:18% !important;
+        float: left;
+        margin-left: 2.3%;
+        .image{
+            width:100%;
+            height:150px;
+            background-color: #fff;
+            margin-bottom: 20px;;
+            background-image: url(images/image.png);
+            background-size:cover;
+        }
+        button{
+            border:1px solid #D0A644;
+            color:#D0A644;
+            border-radius: 5px;
+            width:100%;
+            height: 35px;
+        }
+    }
+    .cardie:nth-child(1),.cardie:nth-child(6){
+        margin-left: 0;
+    }
+    .move{
+        margin-top: 4%;
+    }
+
+
+}
