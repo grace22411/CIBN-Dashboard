@@ -1161,7 +1161,7 @@ section {
         position: relative;
         top: 0;
         left: 0;
-        height: 170px;
+        height: 60px;
     }
 }
 
@@ -1572,6 +1572,14 @@ section {
     line-height: .9em;
 }
 
+@media only screen and (max-width:320px){
+    header .header-desktop{
+        height:100px !important;
+    }
+    .header-button{
+        margin-top:0;
+    }
+}
 .menu-sidebar .navbar__list .navbar__sub-list {
     display: none;
     padding-left: 34px;
@@ -1722,7 +1730,10 @@ section {
     text-transform: capitalize;
     line-height: inherit;
 }
-
+.header-mobile .header-mobile-inner .logo img{
+    height: 40px;
+    width:40px;
+}
 .header-mobile .navbar-mobile .navbar-mobile__list li a:hover {
     color: #4272d7;
 }
@@ -2280,6 +2291,7 @@ section {
 @media (max-width: 991px) {
     .header-desktop2 {
         left: 0;
+        height: 50px;
         position: relative;
     }
 }
